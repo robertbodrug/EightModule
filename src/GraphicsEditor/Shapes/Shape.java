@@ -1,3 +1,5 @@
+package GraphicsEditor.Shapes;
+
 public abstract class Shape {
     private String name;
     private String color;

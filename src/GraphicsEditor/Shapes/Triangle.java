@@ -1,3 +1,5 @@
+package GraphicsEditor.Shapes;
+
 public class Triangle extends Shape {
 
 

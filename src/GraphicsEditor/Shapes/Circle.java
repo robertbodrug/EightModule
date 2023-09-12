@@ -1,4 +1,9 @@
-public class Circle extends Shape implements Perimeter,Square{
+package GraphicsEditor.Shapes;
+
+import GraphicsEditor.Function.Perimeter;
+import GraphicsEditor.Function.Square;
+
+public class Circle extends Shape implements Perimeter, Square {
 
 
     private int r ;

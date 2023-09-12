@@ -1,7 +1,11 @@
-public class Romb extends Shape implements Perimeter{
+package GraphicsEditor.Shapes;
+
+import GraphicsEditor.Function.Perimeter;
+
+public class Rhombus extends Shape implements Perimeter {
     private int a;
 
-    public Romb(String name, String color, int a) {
+    public Rhombus(String name, String color, int a) {
         super(name, color);
         this.a = a;
     }
@@ -20,6 +24,6 @@ public class Romb extends Shape implements Perimeter{
 
     @Override
     public String getType() {
-        return "Romb";
+        return "Rhombus";
     }
 }

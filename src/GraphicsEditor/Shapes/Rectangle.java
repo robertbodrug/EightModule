@@ -1,4 +1,8 @@
-public class Rectangle extends Shape implements Perimeter{
+package GraphicsEditor.Shapes;
+
+import GraphicsEditor.Function.Perimeter;
+
+public class Rectangle extends Shape implements Perimeter {
     private int a;
     private int b;
 
@@ -33,6 +37,6 @@ public class Rectangle extends Shape implements Perimeter{
 
     @Override
     public String getType() {
-        return "Rectangle";
+        return "GraphicsEditor.Shapes.Rectangle";
     }
 }

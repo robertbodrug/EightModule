@@ -1,4 +1,6 @@
-public class Trapeze extends Shape{
+package GraphicsEditor.Shapes;
+
+public class Trapeze extends Shape {
     public Trapeze(String name, String color) {
         super(name, color);
     }
