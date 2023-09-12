@@ -15,6 +15,7 @@ public class ShapeTest {
         shapes.add(new Quad("by Malevich","Black",190));
         shapes.add(new Rhombus("Buba","Red",3));
 
+
         System.out.println(PrettyPrinter.print(shapes));
     }
     }
